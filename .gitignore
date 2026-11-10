@@ -1,0 +1,13 @@
+# Java compiled files
+*.class
+
+# Maven build output
+target/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
