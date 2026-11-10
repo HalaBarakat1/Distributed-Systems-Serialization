@@ -1,0 +1,11 @@
+{
+  "customerName": "Ahmad Saleh",
+  "city": "Damascus",
+  "pastOrders": [
+    { "orderId": 101, "storeBranch": "Main" },
+    { "orderId": 205, "storeBranch": "West" }
+  ],
+  "purchasedItems": ["Laptop", "Wireless Mouse", "Mechanical Keyboard"],
+  "itemPrices": [1200, 25, 85],
+  "isHolidayDealEligible": true
+}

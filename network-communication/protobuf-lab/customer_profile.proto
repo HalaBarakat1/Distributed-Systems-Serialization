@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package distributed.lab;
+
+option java_package = "com.distributed.lab";
+option java_outer_classname = "CustomerProfileProto";
+
+message CustomerProfile {
+    required string customer_name = 1;
+    optional string city = 2 [default = "Damascus"];
+    repeated string purchased_items = 3;
+    repeated int32 item_prices = 4;
+    optional bool is_holiday_deal_eligible = 5 [default = false];
+}
